@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KirBotz - Page Not Found</title>
+  <meta property="og:image" content="https://telegra.ph/file/ab2923f22883899683046.jpg" />
+  <link rel="shortcut icon" href="https://telegra.ph/file/ab2923f22883899683046.jpg">
+  <meta property="og:title" content="404 NOT FOUND" />
+  <meta name="description" content="KirBotz">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Creepster|Nosifer|Roboto');
+  *,
+  *::after,
+  *::before {
+      box-sizing: border-box;
+  }
+
+html,
+body {
+  align-items: center;
+  background: linear-gradient(#003eff, #0028a9);
+  color: white;
+  display: flex;
+  font-family: 'Creepster', cursive;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: 100%;
+  align-items: center;
+  font-size: 250px;
+  text-shadow: 0 0 10px #fff;
+  animation: blink 4.8s infinite both;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 0.2;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+}
+
+h5,
+p {
+  position: absolute;
+  font-family: 'Nosifer', cursive;
+}
+
+h5 {
+  top: 10%;
+  font-size: 0.4em;
+  
+}
+
+p {
+  font-size: 0.3em;
+  bottom: 10%;
+  width: 50%;
+  text-align: center;
+  font-family: 'Nosifer', cursive;
+}
+
+p a {
+  color: cyan;
+}
+
+  </style>
+</head>
+
+<body>
+  <script>
+    swal('Warning', 'please check the url you are going.', 'warning')
+  </script>
+<h5>Internal Server error !</h5>
+    <h1>404</h1>
+    <p> We're unable to find out what's happening! We suggest you to
+      <br>
+      <a href="/docs">Go Back</a>
+    </p>
+</body>
+</html>
