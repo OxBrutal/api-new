@@ -33,8 +33,6 @@
     "ejs": "^3.1.6",
     "vm": "^0.1.0",
     "got": "^11.8.3",
-    "yt-search": "^2.7.4",
-    "ytdl-core": "^4.9.1",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.1",
     "express-rate-limit": "^5.3.0",
